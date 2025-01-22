@@ -1,4 +1,10 @@
-﻿## AWS X-Ray .NET Agent
+﻿### :mega: OpenTelemetry .NET Automatic Instrumentation
+
+AWS X-Ray supports using the OpenTelemetry .NET Automatic Instrumentation and the AWS Distro for OpenTelemetry (ADOT) Collector to automatically instrument your .NET application and send trace data to X-Ray. The OpenTelemetry solutions are an industry-wide standard for tracing instrumentation. They provide more instrumentations and have a larger community for support, but may not have complete feature parity with the X-Ray Agents.
+
+If you want additional features when automatically tracing your .NET applications, please [open an issue on the OpenTelemetry .NET Automatic Instrumentation repository](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/issues/new?template=feature_request.md).
+
+## AWS X-Ray .NET Agent
 
 The AWS X-Ray .NET Agent is a drop-in solution that enables the propagation of X-Ray traces within your web applications. This includes automatic tracing for AWS X-Ray SDK supported frameworks and libraries. The agent enables you to use the X-Ray SDK out of box, and requires no code changes to enable the basic propagation of traces. See the compatibility chart below for the current feature parity between the AWS X-Ray .NET SDK and the AWS X-Ray .NET Agent.
 
